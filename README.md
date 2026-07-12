@@ -1,14 +1,43 @@
 # VortexxAI
-An AI assistant powered by groq.
 
-To make it work open Vortexx.py in a text editor and replace:
+An AI assistant powered by [Groq](https://groq.com/).
 
-PUT A WORKING QROQ API KEY HERE 
+## Getting Started
 
-In:
+### Prerequisites
 
-api_key="PUT A WORKING QROQ API KEY HERE",
+- Python 3.8 or higher
+- A Groq API key
 
-With:
+### Installation
 
-Your api key you can get at https://console.groq.com/keys
+1. Clone this repository
+2. Install required dependencies
+3. Configure your API key (see below)
+
+### Configuration
+
+To use VortexxAI, you need to add a valid Groq API key:
+
+1. Open `Vortexx.py` in your text editor
+2. Locate this line:
+   ```python
+   api_key="PUT A WORKING GROQ API KEY HERE",
+   ```
+3. Replace `PUT A WORKING GROQ API KEY HERE` with your actual API key
+4. Get your API key from: https://console.groq.com/keys
+
+### Usage
+
+Run the application:
+```bash
+python Vortexx.py
+```
+
+## Support
+
+For issues or questions, please open an issue on this repository.
+
+---
+
+**Powered by [Groq](https://groq.com/) - Fast AI Inference**
